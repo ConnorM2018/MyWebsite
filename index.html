@@ -4,32 +4,88 @@
   <head>
     <title>Connor's Website</title>
     <meta charset="utf-8">
-    <meta name="description" content="This is the first draft of my personal website.">
+    <meta name="description" content="This is my personal website.">
     <meta name="keywords" content="Connor McNutt, Personal Website">
+    <style>
+    body {
+      background: radial-gradient(LightGrey, DarkGrey, Grey);
+      background-attachment: fixed;
+    }
+    header {
+      background-color: DarkBlue;
+    }
+    #home {
+      text-align: center;
+      font-size: 40px;
+      background: -webkit-linear-gradient(#eee, #555);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    #nav {
+      background-color: DarkBlue;
+      text-align: center;
+      font-size: 18px;
+    }
+    #navlink:link {
+      color: DarkGrey;
+    }
+    #navlink:visited {
+      color: DarkGrey;
+    }
+    #navlink:hover {
+      color: White;
+      text-shadow: 0 0 3px #ffffff;
+      transition: .15s;
+    }
+    #navlink:active {
+      color: White;
+    }
+    #navactive {
+      color: White;
+      text-shadow: 0 0 3px #ffffff;
+    }
+    #main {
+      text-align: center;
+    }
+    #p1 {
+      font-size: 20px;
+      color: DarkBlue;
+    }
+    a:link {
+      color: Blue;
+    }
+    a:visited {
+      color: Blue;
+    }
+    a:hover {
+      color: White;
+      text-shadow: 0 0 3px #ffffff;
+      transition: .15s;
+    }
+    a:active {
+      color: White;
+    }
+
+    </style>
    </head>
-  <body style="background-color:DarkGrey;" id="body">
+  <body id="body">
     <header id="header">
-      <h1 style="background-color:DarkBlue;" id="home">HOME</h1>
+      <h1 id="home">HOME</h1>
     </header>
-    <hr>
-    <nav id="nav"><b>Home</b> | <a href="about.html">About</a> | <a href="skills.html">Skills</a> | <a href="achievements.html">Goals & Achievements</a>
+    <nav id="nav"><h1><b id="navactive">Home</b> | <b><a href="about.html" id="navlink">About</a></b> | <b><a href="gallery.html" id="navlink">Gallery</a></b> | <b><a href="history.html" id="navlink">History</a>
+    </b></h1>
     </nav>
-    <hr>
     <main id="main">
       <section id="section1">
         <figure id="logo">
-        <a href="about.html">
-          <img src="Logo.png" width="200" alt="CM">
-        </a>
+        <img src="Logo.png" width="200" alt="CM">
       </figure>
-      <p id="p1">Hello! My name is Connor, and this is my personal website. This website lists<br>
-        some of my skills, accomplishments, and current goals. It also explains who I<br>
-        am and what kind of person I am. To learn more about the type of person I am,<br>
-        go to <a href="about.html">"About"</a>. To learn more about my skills and<br>
-        abilities, go to <a href="skills.html">"Skills"</a>. To learn more about my<br>
-        accomplishments and current goals, go to <a href="achievements.html">"Goals & Achievements"</a>.
+      <p id="p1">Hello! My name is Connor, and this is my personal website. This website<br>
+        holds information about me, showcases some of my works, and has a page explaining<br>
+        the history of this website. For information about me, go to <a href="about.html">About</a>;<br>
+        to see some of my works, go to <a href="gallery.html">Gallery</a>; and to see the history<br>
+        of this website, go to <a href="history.html">History</a>.
       </p>
     </main>
-    <hr>
   </body>
   </html>
