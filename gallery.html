@@ -4,35 +4,95 @@
   <head>
     <title>Connor's Website</title>
     <meta charset="utf-8">
-    <meta name="description" content="This is the first draft of my personal website.">
+    <meta name="description" content="This is my personal website.">
     <meta name="keywords" content="Connor McNutt, Personal Website">
+    <style>
+    body {
+      background: radial-gradient(LightGrey, DarkGrey, Grey);
+      background-attachment: fixed;
+    }
+    header {
+      background-color: DarkBlue
+    }
+    #gallery {
+      text-align: center;
+      font-size: 40px;
+      background: -webkit-linear-gradient(#eee, #555);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    #nav {
+      background-color: DarkBlue;
+      text-align: center;
+      font-size: 18px;
+    }
+    #navlink:link {
+      color: DarkGrey;
+    }
+    #navlink:visited {
+      color: DarkGrey;
+    }
+    #navlink:hover {
+      color: White;
+      text-shadow: 0 0 3px #ffffff;
+      transition: .15s;
+    }
+    #navlink:active {
+      color: White;
+    }
+    #navactive {
+      color: White;
+      text-shadow: 0 0 3px #ffffff;
+    }
+    #main {
+      text-align: center;
+    }
+    #p1 {
+      font-size: 20px;
+      color: DarkBlue
+    }
+    a:link {
+      color: Blue
+    }
+    a:visited {
+      color: Blue
+    }
+    a:hover {
+      color: White;
+      text-shadow: 0 0 3px #ffffff;
+      transition: .15s;
+    }
+    a:active {
+      color: White
+    }
+    #heading1 {
+      color: DarkBlue;
+      font-size: 25px;
+    }
+    #section1 {
+      border-width: 3px;
+      border-color: DarkBlue;
+      border-style:solid;
+      background: linear-gradient(LightGrey, DarkGrey, Grey);
+    }
+    </style>
    </head>
-  <body style="background-color:DarkGrey;" id="body">
+  <body id="body">
     <header id="header">
-      <h1 style="background-color:DarkBlue;" id="skills">SKILLS</h1>
+      <h1 id="gallery">GALLERY</h1>
     </header>
-    <hr>
-    <nav id="nav"><a href="index.html">Home</a> | <a href="about.html">About</a> | <b>Skills</b> | <a href="achievements.html">Goals & Achievements</a>
+    <nav id="nav"><h1><b><a href="index.html" id="navlink">Home</a></b> | <b><a href="about.html" id="navlink">About</a></b> | <b id="navactive">Gallery</b> | <b><a href="history.html" id="navlink">History</a>
+    </b></h1>
     </nav>
-    <hr>
     <main id="main">
-      <section id="section1">
-        <figure id="logo">
-          <img src="Logo.png" width="90" alt="CM">
-        </figure>
-        <h3 id="myskills">My Skills</h3>
-        <details id="details">
-          <p id="dp">As I am a high school student, I do not have many skills. Some skills that I plan to learn in the future<br>
-            are listed in <a href="achievements.html">Goals & Achievements</a>.
-          </p>
-          </details>
-        <dl id="ol">
-          <li>I can use HTML</li>
-          <li>I can type without looking at the keyboard or keeping my fingers on a certain row of keys</li>
-          <li>I can write with my eyes closed</li>
-        </dl>
-      </section>
+      <figure id="section1">
+        <h1 id="heading1">This Website</h1>
+        <p id="p1">It is probably no suprise that I consider this website to be<br>
+          my greatest work. After all, I spent four months learning HTML, CSS, and<br>
+          Javascript. I also spent those same four months planning out my website. I<br>
+          could not be more proud of myself for learning how to make this website.<br>
+        </p>
+      </figure>
     </main>
-    <hr>
   </body>
   </html>

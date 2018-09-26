@@ -4,42 +4,90 @@
   <head>
     <title>Connor's Website</title>
     <meta charset="utf-8">
-    <meta name="description" content="This is the first draft of my personal website.">
+    <meta name="description" content="This is my personal website.">
     <meta name="keywords" content="Connor McNutt, Personal Website">
+    <style>
+    body {
+      background: radial-gradient(LightGrey, DarkGrey, Grey);
+      background-attachment: fixed;
+    }
+    header {
+      background-color: DarkBlue
+    }
+    #history {
+      text-align: center;
+      font-size: 40px;
+      background: -webkit-linear-gradient(#eee, #555);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    #nav {
+      background-color: DarkBlue;
+      text-align: center;
+      font-size: 18px;
+    }
+    #navlink:link {
+      color: DarkGrey;
+    }
+    #navlink:visited {
+      color: DarkGrey;
+    }
+    #navlink:hover {
+      color: White;
+      text-shadow: 0 0 3px #ffffff;
+      transition: .15s;
+    }
+    #navlink:active {
+      color: White;
+    }
+    #navactive {
+      color: White;
+      text-shadow: 0 0 3px #ffffff;
+    }
+    #main {
+      text-align: center;
+    }
+    #listhead {
+      font-size: 30px;
+      color: DarkBlue
+    }
+    #logs {
+      color: DarkBlue;
+      font-size: 20px
+    }
+    a:link {
+      color: Blue
+    }
+    a:visited {
+      color: Blue
+    }
+    a:hover {
+      color: White;
+      text-shadow: 0 0 3px #ffffff;
+      transition: .15s;
+    }
+    a:active {
+      color: White
+    }
+    </style>
    </head>
-  <body style="background-color:DarkGrey;" id="body">
+  <body id="body">
     <header id="header">
-      <h1 style="background-color:DarkBlue;" id="goalsandachievements">GOALS & ACHIEVEMENTS</h1>
+      <h1 id="history">HISTORY</h1>
     </header>
-    <hr>
-    <nav id="nav"><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="skills.html">Skills</a> | <b>Goals & Achievements</b>
+    <nav id="nav"><h1><b><a href="index.html" id="navlink">Home</a></b> | <b><a href="about.html" id="navlink">About</a></b> | <b><a href="gallery.html" id="navlink">Gallery</a></b> | <b id="navactive">History
+    </b></h1>
     </nav>
-    <hr>
     <main id="main">
-      <figure id="logo">
-        <img src="Logo.png" width="90" alt="CM">
-      </figure>
-      <section id="achievements">
-        <h1 id="h1a">Achievements</h1>
-        <details id="da">
-          <dl id="achievementlist">
-            <li>Learning HTML</li>
-          </dl>
-        </details>
-      </section>
-      <hr>
-      <section id="goals">
-        <h1 id="h1g">Goals</h1>
-        <details id="dg">
-          <dl id="goalslist">
-            <li>Learn CSS</li>
-            <li>Learn Javascript</li>
-            <li>Make a complete personal website</li>
-            <li>Graduate from High School</li>
-          </dl>
-        </details>
+      <section id="updatelogs">
+        <h1 id="listhead">Website History</h1>
+        <dl id="logs">
+          <li>9/17/2018- Began coding this website with HTML</li>
+          <li>9/18/2018- Began adding CSS to this website</li>
+          <li>9/24/2018- Added the "Goals" section to the <a href="about.html">About</a> page</li>
+          <li>9/25/2018- Added the "Achievements" section to the <a href="about.html">About</a> page</li>
+        </dl>
       </section>
     </main>
-    <hr>
   </body>
   </html>
