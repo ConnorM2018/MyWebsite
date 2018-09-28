@@ -67,7 +67,7 @@
     }
     #heading1 {
       color: DarkBlue;
-      font-size: 25px;
+      font-size: 30px;
     }
     #section1 {
       border-width: 3px;
@@ -75,6 +75,10 @@
       border-style:solid;
       background: linear-gradient(LightGrey, DarkGrey, Grey);
       border-radius: 10px;
+    }
+    #details {
+      color: DarkBlue;
+      font-size: 22px;
     }
     </style>
    </head>
@@ -88,13 +92,15 @@
     <main id="main">
       <figure id="section1">
         <h1 id="heading1">This Website</h1>
-        <p id="p1">It is probably no suprise that I consider this website to be<br>
-          my greatest work. After all, I spent four months learning HTML, CSS, and<br>
-          Javascript. I also spent those same four months planning out my website. I<br>
-          could not be more proud of myself for learning how to make this website.<br>
-        </p>
+        <details id="details">
+          <summary>Expand</summary>
+            <p id="p1">It is probably no suprise that I consider this website to be<br>
+              my greatest work. After all, I spent four months learning HTML, CSS, and<br>
+              Javascript. I also spent those same four months planning out my website. I<br>
+              could not be more proud of myself for learning how to make this website.<br>
+            </p>
+        </details>
       </figure>
     </main>
   </body>
   </html>
-  
