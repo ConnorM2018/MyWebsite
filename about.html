@@ -86,12 +86,15 @@
       border-bottom-color: DarkBlue;
       border-bottom-style: solid;
     }
-    #details[open] {
-      color: Cyan;
-      text-shadow: 0 0 3px #00FFFF;
+    summary {
+      cursor: pointer;
       transition: 0.5s;
     }
-
+    summary:hover {
+      color: Cyan;
+      text-shadow: 0 0 3px Cyan;
+      transition: 0.5s;
+    }
     </style>
    </head>
   <body id="body">
