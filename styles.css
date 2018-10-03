@@ -34,7 +34,7 @@ header {
 }
 #navlink:active {
   color: White;
-  text-decoration: none;
+  text-decoration: underline;
 }
 #navactive {
   color: White;
