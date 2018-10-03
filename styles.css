@@ -11,11 +11,13 @@ header {
   background: -webkit-linear-gradient(#eee, #555);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  cursor:default;
 }
 #nav {
   background-color: DarkBlue;
   text-align: center;
   font-size: 18px;
+  cursor:default;
 }
 #navlink:link {
   color: DarkGrey;
@@ -25,6 +27,7 @@ header {
 #navlink:visited {
   color: DarkGrey;
   text-decoration: none;
+  transition: .25s;
 }
 #navlink:hover {
   color: White;
@@ -39,6 +42,10 @@ header {
 #navactive {
   color: White;
   text-shadow: 0 0 5px #ffffff;
+  cursor:default;
+}
+#navdiv {
+  color: DarkBlue;
 }
 #main {
   text-align: center;
@@ -46,13 +53,15 @@ header {
 #p {
   font-size: 20px;
   color: DarkBlue;
+  cursor:default;
 }
 a:link {
-  color: Blue;
+  color: DarkBlue;
   transition: .25s;
 }
 a:visited {
-  color: Blue;
+  color: DarkBlue;
+  transition: .25s;
 }
 a:hover {
   color: White;
@@ -64,11 +73,13 @@ a:active {
 }
 #listhead {
   font-size: 30px;
-  color: DarkBlue
+  color: DarkBlue;
+  cursor:default;
 }
 #logs {
   color: DarkBlue;
-  font-size: 20px
+  font-size: 20px;
+  cursor:default;
 }
 summary {
   cursor: pointer;
@@ -96,4 +107,5 @@ summary:hover {
   border-bottom-width: 2px;
   border-bottom-color: DarkBlue;
   border-bottom-style: solid;
+  cursor:default;
 }
