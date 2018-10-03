@@ -6,106 +6,11 @@
     <meta charset="utf-8">
     <meta name="description" content="This is my personal website.">
     <meta name="keywords" content="Connor McNutt, Personal Website">
-    <style>
-    body {
-      background: radial-gradient(LightGrey, DarkGrey, Grey);
-      background-attachment: fixed;
-    }
-    header {
-      background-color: DarkBlue;
-    }
-    #about {
-      text-align: center;
-      font-size: 40px;
-      background: -webkit-linear-gradient(#eee, #555);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    #nav {
-      background-color: DarkBlue;
-      text-align: center;
-      font-size: 18px;
-    }
-    #navlink:link {
-      color: DarkGrey;
-      transition: .25s;
-      text-decoration: none;
-    }
-    #navlink:visited {
-      color: DarkGrey;
-      text-decoration: none;
-    }
-    #navlink:hover {
-      color: White;
-      text-shadow: 0 0 5px #ffffff;
-      text-decoration: underline;
-      transition: .15s;
-    }
-    #navlink:active {
-      color: White;
-      text-decoration: underline;
-    }
-    #navactive {
-      color: White;
-      text-shadow: 0 0 5px #ffffff;
-    }
-    #main {
-      text-align: center;
-    }
-    #p {
-      font-size: 20px;
-      color: DarkBlue;
-    }
-    a:link {
-      color: Blue;
-      transition: .25s;
-    }
-    a:visited {
-      color: Blue
-    }
-    a:hover {
-      color: White;
-      text-shadow: 0 0 3px #ffffff;
-      transition: .15s;
-    }
-    a:active {
-      color: White
-    }
-    #section {
-      border-color: DarkBlue;
-      border-top-width: 5px;
-      border-left-width: 5px;
-      border-right-width: 5px;
-      border-bottom-width: 5px;
-      border-style: solid;
-      background: linear-gradient(LightGrey, DarkGrey, Grey);
-      border-radius: 10px;
-    }
-    #details {
-      color: DarkBlue;
-      font-size: 22px;
-    }
-    #heading {
-      color: DarkBlue;
-      font-size: 30px;
-      border-bottom-width: 2px;
-      border-bottom-color: DarkBlue;
-      border-bottom-style: solid;
-    }
-    summary {
-      cursor: pointer;
-      transition: 0.5s;
-    }
-    summary:hover {
-      color: White;
-      text-shadow: 0 0 3px White;
-      transition: 0.5s;
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
    </head>
   <body id="body">
     <header id="header">
-      <h1 id="about">ABOUT</h1>
+      <h1 id="title">ABOUT</h1>
     </header>
     <nav id="nav"><h1><b><a href="index.html" id="navlink">Home</a></b> | <b id="navactive">About</b> | <b><a href="gallery.html" id="navlink">Gallery</a></b> | <b><a href="history.html" id="navlink">History</a>
     </b></h1>
@@ -114,8 +19,8 @@
         <figure id="logo">
         <img src="Logo.png" width="50" alt="CM">
       </figure>
-      <figure id="section">
-        <h1 id="heading">About Me</h1>
+      <figure id="section1">
+        <h1 id="heading1">About Me</h1>
         <details id="details">
           <summary>Expand</summary>
           <p id="p">My name is Connor, and I am a highschool freshman. I plan to become<br>
@@ -130,8 +35,8 @@
           </p>
         </details>
       </figure>
-      <figure id="section">
-        <h1 id="heading">Skills</h1>
+      <figure id="section1">
+        <h1 id="heading1">Skills</h1>
           <details id="details">
             <summary>Expand</summary>
             <p id="p">My most notable skill is <b>the ability to create websites.</b><br>
@@ -140,8 +45,8 @@
             </p>
           </details>
         </figure>
-        <figure id="section">
-          <h1 id="heading">Goals</h1>
+        <figure id="section1">
+          <h1 id="heading1">Goals</h1>
           <details id="details">
             <summary>Expand</summary>
             <dl id="list">
@@ -150,8 +55,8 @@
             </dl>
           </details>
         </figure>
-        <figure id="section">
-          <h1 id="heading">Achievements</h1>
+        <figure id="section1">
+          <h1 id="heading1">Achievements</h1>
           <details id="details">
             <summary>Expand</summary>
             <dl id="list">

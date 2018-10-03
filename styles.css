@@ -1,0 +1,99 @@
+body {
+  background: radial-gradient(LightGrey, DarkGrey, Grey);
+  background-attachment: fixed;
+}
+header {
+  background-color: DarkBlue;
+}
+#title {
+  text-align: center;
+  font-size: 40px;
+  background: -webkit-linear-gradient(#eee, #555);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#nav {
+  background-color: DarkBlue;
+  text-align: center;
+  font-size: 18px;
+}
+#navlink:link {
+  color: DarkGrey;
+  text-decoration: none;
+  transition: .25s;
+}
+#navlink:visited {
+  color: DarkGrey;
+  text-decoration: none;
+}
+#navlink:hover {
+  color: White;
+  text-shadow: 0 0 5px #ffffff;
+  text-decoration: underline;
+  transition: .15s;
+}
+#navlink:active {
+  color: White;
+  text-decoration: none;
+}
+#navactive {
+  color: White;
+  text-shadow: 0 0 5px #ffffff;
+}
+#main {
+  text-align: center;
+}
+#p {
+  font-size: 20px;
+  color: DarkBlue;
+}
+a:link {
+  color: Blue;
+  transition: .25s;
+}
+a:visited {
+  color: Blue;
+}
+a:hover {
+  color: White;
+  text-shadow: 0 0 3px #ffffff;
+  transition: .15s;
+}
+a:active {
+  color: White;
+}
+#listhead {
+  font-size: 30px;
+  color: DarkBlue
+}
+#logs {
+  color: DarkBlue;
+  font-size: 20px
+}
+summary {
+  cursor: pointer;
+  transition: 0.5s;
+}
+summary:hover {
+  color: White;
+  text-shadow: 0 0 3px White;
+  transition: 0.5s;
+}
+#details {
+  color: DarkBlue;
+  font-size: 22px;
+}
+#section1 {
+  border-color: DarkBlue;
+  border-width: 5px;
+  border-style: solid;
+  background: linear-gradient(LightGrey, DarkGrey, Grey);
+  border-radius: 10px;
+}
+#heading1 {
+  color: DarkBlue;
+  font-size: 30px;
+  border-bottom-width: 2px;
+  border-bottom-color: DarkBlue;
+  border-bottom-style: solid;
+}
