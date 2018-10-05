@@ -117,3 +117,8 @@ summary:hover {
   border-bottom-style: solid;
   cursor:default;
 }
+#heading {
+  color: DarkBlue;
+  font-size: 25px;
+  cursor:default;
+}
