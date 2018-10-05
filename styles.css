@@ -88,6 +88,10 @@ a:active {
 summary {
   cursor: pointer;
   transition: 0.5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 summary:hover {
   color: White;
