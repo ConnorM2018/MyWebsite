@@ -3,11 +3,11 @@ body {
   background-attachment: fixed;
 }
 header {
-  background-color: DarkBlue;
+  background-color:DarkBlue;
 }
 #title {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   background: -webkit-linear-gradient(#eee, #555);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -16,7 +16,7 @@ header {
 #nav {
   background-color: DarkBlue;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   cursor:default;
   position:sticky;
   top: 0;
@@ -84,7 +84,7 @@ a:active {
 }
 #logs {
   color: DarkBlue;
-  font-size: 20px;
+  font-size: 25px;
   cursor:default;
 }
 summary {
