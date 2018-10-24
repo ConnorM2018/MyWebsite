@@ -15,46 +15,40 @@ header {
   -webkit-text-fill-color: transparent;
   cursor:default;
 }
-#nav {
+* {box-sizing: border-box}
+#navbar {
+  width: 100%;
   background-color: DarkBlue;
-  text-align: center;
-  font-size: 20px;
-  cursor:default;
+  overflow: auto;
   position:sticky;
   top: 0;
   z-index: 1;
 }
-#navlink:link {
+#navbar a {
+  float: left;
   color: DarkGrey;
   text-decoration: none;
+  font-size: 30px;
+  width: 25%;
+  text-align: center;
   transition: .25s;
 }
-#navlink:visited {
-  color: DarkGrey;
-  text-decoration: none;
-  transition: .25s;
-}
-#navlink:hover {
+#navbar a:hover {
   color: White;
-  text-shadow: 0 0 5px #ffffff;
-  text-decoration: underline;
+  text-shadow: 0 0 5px White;
   transition: .15s;
 }
-#navlink:active {
+#navbar #active {
   color: White;
-  text-decoration: underline;
+  text-shadow: 0 0 5px White;
 }
-#navactive {
-  color: White;
-  text-shadow: 0 0 5px #ffffff;
-  cursor:default;
-}
-#navdiv {
-  color: DarkBlue;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+@media screen and (max-width: 500px) {
+  #navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
 #main {
   text-align: center;
