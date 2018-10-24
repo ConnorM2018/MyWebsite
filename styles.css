@@ -26,6 +26,7 @@ header {
 }
 #navbar a {
   float: left;
+  padding-bottom: 2px;
   color: DarkGrey;
   text-decoration: none;
   font-size: 30px;
