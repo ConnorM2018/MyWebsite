@@ -110,6 +110,8 @@ a:active {
   border-color:DarkBlue;
   border-radius: 10px;
   border-width: thick;
+  background: linear-gradient(LightGrey, DarkGrey, Grey);
+  background-attachment: fixed;
 }
 summary {
   cursor: pointer;
@@ -194,4 +196,9 @@ summary:hover {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+#welcome p {
+  font-size: 22px;
+  color: DarkBlue;
+  cursor:default;
 }
