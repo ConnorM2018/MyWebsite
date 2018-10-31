@@ -246,28 +246,6 @@ summary:hover {
   color: DarkBlue;
   font-size: 20px;
 }
-#upcoming {
-  border-color: DarkBlue;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 10px;
-  width:100%;
-  cursor:default;
-  margin-top: 50px;
-}
-#upcoming h1 {
-  color: DarkBlue;
-  font-size: 30px;
-  border-bottom-style:solid;
-  border-bottom-color: DarkBlue;
-  border-bottom-width: 2px;
-  cursor:default;
-}
-#upcoming p {
-  color: DarkBlue;
-  font-size: 25px;
-  cursor:default;
-}
 #logo {
   margin:auto;
   margin-top:20px;
