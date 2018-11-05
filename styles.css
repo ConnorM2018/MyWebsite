@@ -53,14 +53,7 @@ header {
   color: White;
   text-shadow: 0 0 5px White;
 }
-@media screen and (max-width: 500px) {
-  #navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-}
+
 #main {
   text-align: center;
 }
@@ -249,4 +242,65 @@ summary:hover {
 #logo {
   margin:auto;
   margin-top:20px;
+}
+#dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#dropdown-content {
+  display: none;
+  position: relative;
+  background: linear-gradient(LightGrey, DarkGrey);
+  min-width: 160px;
+  padding: 12px 16px;
+  margin: auto;
+  margin-top: 5px;
+  border-style: solid;
+  border-color: DarkBlue;
+  border-radius: 8px;
+  border-width: 3px;
+  color: DarkBlue;
+  cursor: default;
+  text-align: center;
+  font-size: 20px;
+}
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+#dropdown span {
+	color: DarkBlue;
+  font-size: 50px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: DarkBlue;
+  background: linear-gradient(LightGrey, DarkGrey);
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: default;
+  transition: 0.5s;
+  text-align:center;
+
+}
+#dropdown:hover span {
+	color: White;
+  text-shadow: 0 0 5px White;
+  transition: 0.4s;
+  cursor:default;
+}
+@media screen and (max-width: 500px) {
+  #navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #updatelogs {
+    width: 100%;
+    margin: none;
+  }
 }
