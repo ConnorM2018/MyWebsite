@@ -191,14 +191,30 @@ summary:hover {
   user-select: none;
 }
 #welcome p {
-  font-size: 22px;
+  font-size: 0px;
   color: DarkBlue;
   cursor:default;
+  animation-name: wp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+#welcome p a{
+  font-size: 0px;
+  color: DarkBlue;
+  cursor:default;
+  animation-name: wp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 #welcome h1 {
   color: DarkBlue;
-  font-size: 30px;
+  font-size: 0px;
   cursor:default;
+  animation-name: wh;
+  animation-duration: 1s;
+  animation-fill-mode:forwards;
 }
 #pageinfo {
   width: 80%;
@@ -306,4 +322,12 @@ summary:hover {
   #info {
     width: 90%;
   }
+}
+@keyframes wh  {
+  from {font-size: 0px;}
+  to  {font-size: 30px;}
+}
+@keyframes wp {
+  from {font-size: 0px;}
+  to  {font-size: 22px;}
 }
