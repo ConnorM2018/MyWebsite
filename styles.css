@@ -79,20 +79,42 @@ a:active {
   color: White;
 }
 #listhead {
-  font-size: 30px;
+  font-size: 0px;
   color: DarkBlue;
   cursor:default;
+  margin-top: 15px;
+  animation-name: listhead;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 #logs {
   color: DarkBlue;
-  font-size: 25px;
+  font-size: 0px;
   cursor:default;
+  animation-name: logs;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+#logs a {
+  color: DarkBlue;
+  font-size: 0px;
+  cursor:default;
+  animation-name: logs;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 #logs p {
   border-bottom-style: solid;
-  border-bottom-width: medium;
+  border-bottom-width: 0px;
   border-bottom-color: DarkBlue;
   text-align:left;
+  margin-top: 10px;
+  animation-name: logsp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 #updatelogs {
   width: 60%;
@@ -102,9 +124,12 @@ a:active {
   border-style:solid;
   border-color:DarkBlue;
   border-radius: 10px;
-  border-width: thick;
-  background: linear-gradient(LightGrey, DarkGrey, Grey);
-  background-attachment: fixed;
+  border-width: 0px;
+  background: none;
+  animation-name: updatelogs;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 summary {
   cursor: pointer;
@@ -372,4 +397,20 @@ summary:hover {
 @keyframes info {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+@keyframes listhead {
+  from {font-size: 0px;}
+  to  {font-size: 30px;}
+}
+@keyframes logs {
+  from {font-size: 0px;}
+  to  {font-size: 25px;}
+}
+@keyframes updatelogs {
+  from {border-width: 0px; background: none;}
+  to  {border-width: 5px; background: linear-gradient(LightGrey, DarkGrey, Grey); background-attachment: fixed;}
+}
+@keyframes logsp {
+  from {border-bottom-width: 0px;}
+  to  {border-bottom-width: 3px;}
 }
