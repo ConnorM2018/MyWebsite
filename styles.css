@@ -223,19 +223,27 @@ summary:hover {
   margin-top: 25px;
   cursor:default;
 }
-#pageinfo h1 {
+#pageh1 {
   color: DarkBlue;
-  font-size: 30px;
+  font-size: 0px;
   border-bottom-width: 2px;
   border-bottom-color: DarkBlue;
   border-bottom-style: solid;
+  animation-name: ph;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 #infohelp {
   color: DarkBlue;
-  font-size: 20px;
-  border-bottom-width: 2px;
+  font-size: 0px;
+  border-bottom-width: 0px;
   border-bottom-color: DarkBlue;
   border-bottom-style: solid;
+  margin-top: 5px;
+  animation-name: ih;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 #info {
   width: 40%;
@@ -246,6 +254,11 @@ summary:hover {
   float:left;
   margin-left:5%;
   margin-right:5%;
+  opacity: 0;
+  animation-name: info;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
 }
 #info details {
   font-size: 20px;
@@ -254,6 +267,13 @@ summary:hover {
 #info p {
   color: DarkBlue;
   font-size: 20px;
+}
+#info h1 {
+  color: DarkBlue;
+  font-size: 30px;
+  border-bottom-width: 2px;
+  border-bottom-color: DarkBlue;
+  border-bottom-style: solid;
 }
 #logo {
   margin:auto;
@@ -266,6 +286,7 @@ summary:hover {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+  opacity: 0%;
 }
 #dropdown-content {
   display: none;
@@ -295,12 +316,15 @@ summary:hover {
   border-color: DarkBlue;
   background: linear-gradient(LightGrey, DarkGrey);
   border-radius: 10px;
-  padding: 10px;
+  padding: 0px;
   font-weight: bold;
   cursor: default;
   transition: 0.5s;
   text-align:center;
   margin-bottom: 20%;
+  animation-name: drop;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 #dropdown:hover span {
 	color: White;
@@ -330,4 +354,22 @@ summary:hover {
 @keyframes wp {
   from {font-size: 0px;}
   to  {font-size: 22px;}
+}
+@keyframes drop {
+  0%  {padding: 0px;}
+  25% {padding: 10px;}
+  50% {padding: 6px;}
+  100% {padding: 10px;}
+}
+@keyframes ph {
+  from  {font-size: 0px; border-bottom-width: 0px;}
+  to   {font-size: 30px; border-bottom-width: 2px;}
+}
+@keyframes ih {
+  from  {font-size: 0px; border-bottom-width: 0px; margin-top: 0px;}
+  to   {font-size: 20px; border-bottom-width: 2px; margin-top: 5px;}
+}
+@keyframes info {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
