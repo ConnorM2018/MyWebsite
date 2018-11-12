@@ -223,7 +223,7 @@ details {
   animation-name: infohelp;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
+  animation-delay: 0.8s;
 }
 #info {
   width: 40%;
@@ -238,7 +238,7 @@ details {
   animation-name: info;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-delay: 1.8s;
 }
 #info details {
   font-size: 20px;
