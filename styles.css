@@ -175,7 +175,7 @@ details {
   font-size: 0px;
   color: DarkBlue;
   cursor:default;
-  animation-name: wp;
+  animation-name: welcomep;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
@@ -183,7 +183,7 @@ details {
 #welcome p a:link{
   font-size: 0px;
   color: DarkBlue;
-  animation-name: wp;
+  animation-name: welcomep;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
@@ -192,7 +192,7 @@ details {
   color: DarkBlue;
   font-size: 0px;
   cursor:default;
-  animation-name: wh;
+  animation-name: welcomeh1;
   animation-duration: 1s;
   animation-fill-mode:forwards;
 }
@@ -209,7 +209,7 @@ details {
   border-bottom-width: 2px;
   border-bottom-color: DarkBlue;
   border-bottom-style: solid;
-  animation-name: ph;
+  animation-name: pageh1;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
@@ -220,7 +220,7 @@ details {
   border-bottom-color: DarkBlue;
   border-bottom-style: solid;
   margin-top: 5px;
-  animation-name: ih;
+  animation-name: infohelp;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
@@ -325,13 +325,14 @@ details {
   }
   #info {
     width: 90%;
+    float:none;
   }
 }
-@keyframes wh  {
+@keyframes welcomeh1  {
   from {font-size: 0px;}
   to  {font-size: 30px;}
 }
-@keyframes wp {
+@keyframes welcomep {
   from {font-size: 0px;}
   to  {font-size: 22px;}
 }
@@ -341,11 +342,11 @@ details {
   50% {padding: 6px;}
   100% {padding: 10px;}
 }
-@keyframes ph {
+@keyframes pageh1 {
   from  {font-size: 0px; border-bottom-width: 0px;}
   to   {font-size: 30px; border-bottom-width: 2px;}
 }
-@keyframes ih {
+@keyframes infohelp {
   from  {font-size: 0px; border-bottom-width: 0px; margin-top: 0px;}
   to   {font-size: 20px; border-bottom-width: 2px; margin-top: 5px;}
 }
