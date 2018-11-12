@@ -53,15 +53,10 @@ header {
   color: White;
   text-shadow: 0 0 5px White;
 }
-
-#main {
+main {
   text-align: center;
 }
-#p {
-  font-size: 20px;
-  color: DarkBlue;
-  cursor:default;
-}
+
 a:link {
   color: DarkBlue;
   transition: .25s;
@@ -144,7 +139,7 @@ summary:hover {
   text-shadow: 0 0 3px White;
   transition: 0.5s;
 }
-#details {
+details {
   color: DarkBlue;
   font-size: 22px;
 }
@@ -224,10 +219,9 @@ summary:hover {
   animation-fill-mode: forwards;
   animation-delay: 1s;
 }
-#welcome p a{
+#welcome p a:link{
   font-size: 0px;
   color: DarkBlue;
-  cursor:default;
   animation-name: wp;
   animation-duration: 1s;
   animation-fill-mode: forwards;
