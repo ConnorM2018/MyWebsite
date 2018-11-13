@@ -316,25 +316,44 @@ details {
   border-color: DarkBlue;
   border-style: solid;
   border-radius: 20px;
-  border-width: 5px;
-  margin-top: 10%;
+  border-width: 0px;
+  margin-top: 0%;
   margin-right: 5%;
   margin-left: 5%;
-  background: linear-gradient(LightGrey, DarkGrey, Grey);
+  background: none;
+  animation-name: upcoming;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.3s;
 }
 #upcoming h1 {
-  border-bottom-width: 3px;
+  border-bottom-width: 0px;
   border-bottom-color: DarkBlue;
   border-bottom-style: solid;
   color: DarkBlue;
-  font-size: 30px;
+  font-size: 0px;
+  animation-name: upcomingh1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.2s;
 }
 #comingsoon p {
-  font-size: 20px;
+  font-size: 0px;
   color: DarkBlue;
-  border-bottom-width: 2px;
+  border-bottom-width: 0px;
   border-bottom-color: DarkBlue;
   border-bottom-style: solid;
+  animation-name: comingsoon;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.5s;
+  margin-top: 5px;
+}
+#comingsoon a {
+  animation-name: comingsoon;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.5s;
 }
 @media screen and (max-width: 500px) {
   #navbar a {
@@ -393,4 +412,16 @@ details {
 @keyframes logsp {
   from {border-bottom-width: 0px;}
   to  {border-bottom-width: 3px;}
+}
+@keyframes upcoming {
+  from {border-width: 0px; margin-top: 0%; background: none;}
+    to {border-width: 5px; margin-top: 10%; background: linear-gradient(LightGrey, DarkGrey, Grey);}
+}
+@keyframes upcomingh1 {
+  from {border-bottom-width: 0px; font-size: 0px;}
+    to {border-bottom-width: 3px; font-size: 30px;}
+}
+@keyframes comingsoon {
+  from {font-size: 0px; border-bottom-width: 0px;}
+    to {font-size: 20px; border-bottom-width: 2px;}
 }
