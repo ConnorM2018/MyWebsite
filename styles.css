@@ -88,7 +88,7 @@ a:active {
   animation-name: logs;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
+  animation-delay: .6s;
 }
 #logs a:link {
   color: DarkBlue;
@@ -96,7 +96,7 @@ a:active {
   animation-name: logs;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
+  animation-delay: .8s;
 }
 #logs p {
   border-bottom-style: solid;
@@ -107,7 +107,7 @@ a:active {
   animation-name: logsp;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
+  animation-delay: .8s;
 }
 #updatelogs {
   width: 60%;
@@ -122,7 +122,7 @@ a:active {
   animation-name: updatelogs;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
+  animation-delay: .5s;
 }
 summary {
   cursor: pointer;
