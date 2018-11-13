@@ -312,6 +312,30 @@ details {
   transition: 0.4s;
   cursor:default;
 }
+#upcoming {
+  border-color: DarkBlue;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  margin-top: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  background: linear-gradient(LightGrey, DarkGrey, Grey);
+}
+#upcoming h1 {
+  border-bottom-width: 3px;
+  border-bottom-color: DarkBlue;
+  border-bottom-style: solid;
+  color: DarkBlue;
+  font-size: 30px;
+}
+#comingsoon p {
+  font-size: 20px;
+  color: DarkBlue;
+  border-bottom-width: 2px;
+  border-bottom-color: DarkBlue;
+  border-bottom-style: solid;
+}
 @media screen and (max-width: 500px) {
   #navbar a {
     float: none;
