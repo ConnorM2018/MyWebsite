@@ -1,6 +1,7 @@
 body {
   background: radial-gradient(LightGrey, DarkGrey, Grey);
   background-attachment: fixed;
+  cursor: default;
 }
 header {
   margin:0;
