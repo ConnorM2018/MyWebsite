@@ -1,6 +1,7 @@
 function showcontent(id){
   id.style.display="block";
 
+
 }
 
 function hidecontent(id){
