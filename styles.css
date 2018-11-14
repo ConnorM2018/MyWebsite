@@ -270,7 +270,6 @@ details {
   opacity: 0%;
 }
 #dropdown-content {
-  display: none;
   position: relative;
   background: linear-gradient(LightGrey, DarkGrey);
   min-width: 160px;
@@ -286,9 +285,7 @@ details {
   text-align: center;
   font-size: 20px;
 }
-#dropdown:hover #dropdown-content {
-  display: block;
-}
+
 #dropdown span {
 	color: DarkBlue;
   font-size: 50px;
@@ -355,6 +352,12 @@ details {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.5s;
+}
+#content {
+  display:none;
+}
+#content:hover {
+  display:block;
 }
 @media screen and (max-width: 500px) {
   #navbar a {

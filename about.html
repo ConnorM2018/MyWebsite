@@ -6,6 +6,7 @@
     <meta name="description" content="This is my personal website.">
     <meta name="keywords" content="Connor McNutt, Personal Website">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
    </head>
   <body>
     <header>
@@ -23,10 +24,10 @@
       <figure>
         <img src="symbol.png" width="50" id="symbol">
       </figure>
-      <div id="dropdown">
+      <div id="dropdown" onclick="showcontent(content)" onmouseout="hidecontent(content)">
         <span>About Me</span>
-        <div id="dropdown-content">
-          <p>My name is Connor, and I am currently a high school student. I do<br>
+        <div id="dropdown-content" onmouseover="showcontent(content)" onmouseout="hidecontent(dropdown-content)">
+          <p id="content">My name is Connor, and I am currently a high school student. I do<br>
 	           very well in school, but I have a bit of a lazy personality. I spend<br>
              most if not all of my free time on a computer, and I have a lot of<br>
              interest in computers. During my freshman year of high school, I took<br>
