@@ -360,6 +360,51 @@ details {
 #content1:hover, #content2:hover, #content3:hover, #content4:hover, #content5:hover {
   display:block;
 }
+#majorupdates {
+  border-color: DarkBlue;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0px;
+  margin-top: 0%;
+  margin-right: 5%;
+  margin-left: 5%;
+  background: none;
+  animation-name: majorupdates;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+#majorupdates h1 {
+  font-size: 0px;
+  border-bottom-width: 0px;
+  border-bottom-color: DarkBlue;
+  border-bottom-style: solid;
+  color: DarkBlue;
+  animation-name: majorupdatesh1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3.1s;
+}
+#majorupdates h2 {
+  font-size: 0px;
+  border-bottom-width: 0px;
+  border-bottom-color: DarkBlue;
+  border-bottom-style: solid;
+  color: DarkBlue;
+  margin-top: 5px;
+  animation-name: majorupdatesh2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3.2s;
+}
+#majorupdates p, #majorupdates a {
+  font-size: 0px;
+  color: DarkBlue;
+  animation-name: majorupdatesp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3.4s;
+}
 @media screen and (max-width: 500px) {
   #navbar a {
     float: none;
@@ -429,4 +474,20 @@ details {
 @keyframes comingsoon {
   from {font-size: 0px; border-bottom-width: 0px;}
     to {font-size: 20px; border-bottom-width: 2px;}
+}
+@keyframes majorupdates {
+  from {border-width: 0px; margin-top: 0%; background: none;}
+  to {border-width: 5px; margin-top: 10%; background: linear-gradient(LightGrey, DarkGrey, Grey);}
+}
+@keyframes majorupdatesh1 {
+  from {border-bottom-width: 0px; font-size: 0px;}
+  to {border-bottom-width: 3px; font-size: 30px;}
+}
+@keyframes majorupdatesh2 {
+  from {border-bottom-width: 0px; font-size: 0px;}
+  to {border-bottom-width: 2px; font-size: 25px;}
+}
+@keyframes majorupdatesp {
+  from {font-size: 0px;}
+  to {font-size: 20px;}
 }
