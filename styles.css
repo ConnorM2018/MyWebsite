@@ -397,9 +397,15 @@ details {
   animation-fill-mode: forwards;
   animation-delay: 3.2s;
 }
-#majorupdates p, #majorupdates a {
+#majorupdates p {
   font-size: 0px;
   color: DarkBlue;
+  animation-name: majorupdatesp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3.4s;
+}
+#majorupdates a {
   animation-name: majorupdatesp;
   animation-duration: 1s;
   animation-fill-mode: forwards;
