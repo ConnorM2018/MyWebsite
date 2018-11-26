@@ -411,6 +411,48 @@ details {
   animation-fill-mode: forwards;
   animation-delay: 3.4s;
 }
+#bottombutton {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-color: DarkBlue;
+  border-radius: 5px;
+  border-width: 5px;
+  border-style: solid;
+  background-color: DarkBlue;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+}
+#bottombutton img {
+  width: 100%;
+  height: 100%;
+  color: DarkGrey;
+}
+#topbutton {
+  background-color: DarkBlue;
+  border-top-style:solid;
+  border-top-color: DarkBlue;
+  border-top-width:medium;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  bottom: 0;
+  margin-bottom: none;
+  text-align:center;
+  overflow: auto;
+  margin-top: 20px;
+  position: static;
+  width: 100%;
+}
+#topbutton a {
+  font-size: 30px;
+  color: DarkGrey;
+  text-align: center;
+  text-decoration: none;
+}
+#topbutton a:hover {
+  color: White;
+}
 @media screen and (max-width: 500px) {
   #navbar a {
     float: none;
