@@ -271,7 +271,6 @@ details {
 }
 #dropdown-content {
   position: relative;
-
 }
 
 #dropdown span {
@@ -284,7 +283,7 @@ details {
   border-radius: 10px;
   padding: 0px;
   font-weight: bold;
-  cursor: default;
+  cursor: pointer;
   transition: 0.5s;
   text-align:center;
   margin-bottom: 20%;
@@ -296,7 +295,7 @@ details {
 	color: White;
   text-shadow: 0 0 5px White;
   transition: 0.4s;
-  cursor:default;
+  cursor:pointer;
 }
 #upcoming {
   border-color: DarkBlue;
@@ -420,11 +419,15 @@ details {
   border-color: DarkBlue;
   border-radius: 10px;
   border-width: 5px;
-  border-style: solid;
+  border-style: none;
   background-color: DarkBlue;
   cursor: pointer;
-  width: 70px;
-  height: 70px;
+  width: 0px;
+  height: 0px;
+  animation-name: bottombutton;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
 }
 #bottombutton img {
   width: 100%;
@@ -532,4 +535,8 @@ details {
 @keyframes majorupdatesp {
   from {font-size: 0px;}
   to {font-size: 20px;}
+}
+@keyframes bottombutton {
+  from {width: 0px; height: 0px; border-style:none;}
+  to {width: 70px; height: 70px; border-style: solid;}
 }
