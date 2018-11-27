@@ -415,8 +415,10 @@ details {
   position: fixed;
   bottom: 0;
   right: 0;
+  margin-bottom: 5px;
+  margin-right: 5px;
   border-color: DarkBlue;
-  border-radius: 5px;
+  border-radius: 10px;
   border-width: 5px;
   border-style: solid;
   background-color: DarkBlue;
