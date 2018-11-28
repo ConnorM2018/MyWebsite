@@ -257,11 +257,12 @@ details {
   border-bottom-width: 2px;
   border-bottom-color: DarkBlue;
   border-bottom-style: solid;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 #info:hover h1 {
-  font-size: 40px;
-  transition: 0.2s;
+  color: White;
+  text-shadow: 0 0 3px White;
+  transition: 0.5s;
 }
 #logo {
   margin:auto;
@@ -340,6 +341,7 @@ details {
   animation-fill-mode: forwards;
   animation-delay: 2.5s;
   margin-top: 5px;
+
 }
 #comingsoon a {
   animation-name: comingsoon;
