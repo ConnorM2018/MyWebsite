@@ -235,11 +235,13 @@ details {
   float:left;
   margin-left:5%;
   margin-right:5%;
+  margin-top: 20px;
   opacity: 0;
   animation-name: info;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 1.8s;
+  background: linear-gradient(LightGrey, DarkGrey);
 }
 #info details {
   font-size: 20px;
@@ -255,6 +257,11 @@ details {
   border-bottom-width: 2px;
   border-bottom-color: DarkBlue;
   border-bottom-style: solid;
+  transition: 0.2s;
+}
+#info:hover h1 {
+  font-size: 40px;
+  transition: 0.2s;
 }
 #logo {
   margin:auto;
@@ -449,6 +456,7 @@ details {
 #topbutton a:hover {
   color: White;
 }
+
 @media screen and (max-width: 500px) {
   #navbar a {
     float: none;
