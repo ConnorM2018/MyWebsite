@@ -276,7 +276,6 @@ details {
 #dropdown-content {
   position: relative;
 }
-
 #dropdown span {
 	color: DarkBlue;
   font-size: 50px;
@@ -454,7 +453,6 @@ details {
 #topbutton a:hover {
   color: White;
 }
-
 @media screen and (max-width: 500px) {
   #navbar a {
     float: none;
