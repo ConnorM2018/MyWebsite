@@ -259,11 +259,7 @@ details {
   border-bottom-style: solid;
   transition: 0.5s;
 }
-#info:hover h1 {
-  color: White;
-  text-shadow: 0 0 3px White;
-  transition: 0.5s;
-}
+
 #logo {
   margin:auto;
   margin-top:20px;
@@ -298,6 +294,12 @@ details {
   animation-name: drop;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+}
+#dropdown:hover span {
+	color: White;
+  text-shadow: 0 0 5px White;
+  transition: 0.4s;
+  cursor:pointer;
 }
 #upcoming {
   border-color: DarkBlue;
