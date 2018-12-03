@@ -299,12 +299,6 @@ details {
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-#dropdown:hover span {
-	color: White;
-  text-shadow: 0 0 5px White;
-  transition: 0.4s;
-  cursor:pointer;
-}
 #upcoming {
   border-color: DarkBlue;
   border-style: solid;
