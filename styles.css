@@ -397,45 +397,66 @@ details {
 }
 #infotabs {
   float:right;
-  border: 3px solid DarkBlue;
-  background-color: DarkBlue;
-  width:25%;
-  height: 400px;
+  width:0%;
+  height: 0px;
+  animation-name: infotabs;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
 }
 #infotabs button {
-  display: block;
-  background-color: DarkBlue;
+  display:block;
+  background: none;
   color: DarkGrey;
-  height: 25%;
-  width: 100%;
+  height: 0%;
+  width: 0%;
   border: none;
   outline: none;
   text-align: center;
   cursor: pointer;
+  font-size: 0px;
+  font-family: serif;
+  font-weight: bold;
   transition: 0.2s;
-  font-size: 25px;
+  animation-name: infobutton;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.3s;
+}
+#infotabs button:hover {
+  text-shadow: 0 0 3px white;
+  color: White;
+  transition: 0.2s;
 }
 #infobox {
   text-align: center;
   float: right;
-  border: 3px solid DarkBlue;
-  width: 75%;
-  border-right: none;
-  height: 400px;
+  width: 0%;
+  height: 0px;
+  animation-name: infobox;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 #infohead {
-  font-size: 30px;
-  background-color: DarkBlue;
+  font-size: 0px;
   color: DarkGrey;
   top:0;
   width:100%;
   height:10%;
   margin:0;
+  animation-name: infohead;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.2s;
 }
-
 #infocontent {
+  opacity:0;
   font-size: 25px;
   color: DarkBlue;
+  animation-name: infocontent;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.4s;
 }
 @media screen and (max-width: 500px) {
   #navbar a {
@@ -447,6 +468,13 @@ details {
   #updatelogs {
     width: 100%;
     margin: none;
+  }
+  #info {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #infocontent {
+    font-size: 18px;
   }
 }
 @keyframes welcomeh1  {
@@ -510,4 +538,24 @@ details {
 @keyframes bottombutton {
   from {width: 0px; height: 0px; border-style:none;}
   to {width: 70px; height: 70px; border-style: solid;}
+}
+@keyframes infobutton {
+  from {font-size: 0px; background: none;}
+  to {font-size: 30px; background-color: DarkBlue; height: 25%; width: 100%;}
+}
+@keyframes infohead {
+  from {font-size: 0px;}
+  to {font-size:30px; background-color: DarkBlue;}
+}
+@keyframes infobox {
+  from {width: 0%; height: 0px;}
+  to {width: 75%; height: 400px; border: 3px solid DarkBlue; border-top-left-radius: 10px; border-bottom-left-radius: 10px; background: linear-gradient(LightGrey, DarkGrey, Grey);}
+}
+@keyframes infotabs {
+  from {width: 0%; height: 0px;}
+  to {width: 25%; height: 400px;  border: 3px solid DarkBlue; border-top-right-radius: 10px; border-bottom-right-radius: 10px; background-color: DarkBlue;}
+}
+@keyframes infocontent {
+  from {opacity:0;}
+  to {opacity:100;}
 }
