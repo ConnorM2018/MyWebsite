@@ -402,7 +402,7 @@ details {
   animation-name: infotabs;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-delay: 1.2s;
+  animation-delay: 1.3s;
 }
 #infotabs button {
   display:block;
@@ -421,7 +421,7 @@ details {
   animation-name: infobutton;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-delay: 1.3s;
+  animation-delay: 1.4s;
 }
 #infotabs button:hover {
   text-shadow: 0 0 3px white;
@@ -456,7 +456,7 @@ details {
   animation-name: infocontent;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-delay: 0.4s;
+  animation-delay: 0.3s;
 }
 @media screen and (max-width: 500px) {
   #navbar a {
