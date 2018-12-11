@@ -1,9 +1,9 @@
-function showcontent(id){
-  id.style.display="block";
-}
-
-function hidecontent(id){
-  id.style.display="none";
+function togglecontent(id) {
+  if (id.style.display === "none") {
+    id.style.display = "block";
+  } else {
+    id.style.display = "none";
+  }
 }
 
 function homefunction(id,id1){
