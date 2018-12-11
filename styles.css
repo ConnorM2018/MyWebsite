@@ -227,6 +227,7 @@ details {
   transition: 0.5s;
   text-align:center;
   margin-bottom: 20%;
+  user-select: none;
   animation-name: drop;
   animation-duration: 1s;
   animation-fill-mode: forwards;
@@ -282,7 +283,7 @@ details {
   animation-delay: 2.5s;
 }
 #content1, #content2, #content3, #content4, #content5 {
-  display:none;
+  display: none;
   padding: 12px 16px;
   background: linear-gradient(LightGrey, DarkGrey);
   min-width: 160px;
@@ -296,9 +297,6 @@ details {
   cursor: default;
   text-align: center;
   font-size: 20px;
-}
-#content1:hover, #content2:hover, #content3:hover, #content4:hover, #content5:hover {
-  display:block;
 }
 #majorupdates {
   border-color: DarkBlue;

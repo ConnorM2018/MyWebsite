@@ -5,7 +5,6 @@ function togglecontent(id) {
     id.style.display = "none";
   }
 }
-
 function homefunction(id,id1){
   id.innerHTML = "Home";
 
@@ -14,7 +13,7 @@ function homefunction(id,id1){
  function aboutfunction(id,id1){
    id.innerHTML = "About";
 
-   id1.innerHTML = "The About page provides readers with information about me. Information is sorted into sections. For example, information about my current goals will be in the 'Goals' section. To view the content of a section, click on the section's name. If you move your cursor away from the content, then it will close.";
+   id1.innerHTML = "The About page provides readers with information about me. Information is sorted into sections. For example, information about my current goals will be in the 'Goals' section. To view the content of a section, click on the section's name. To close the content, click on the section's name again.";
  }
 function helpfunction(id,id1){
   id.innerHTML = "Help";
