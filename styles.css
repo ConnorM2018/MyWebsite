@@ -282,8 +282,9 @@ details {
   animation-fill-mode: forwards;
   animation-delay: 2.5s;
 }
-#content1, #content2, #content3, #content4, #content5 {
+#content1, #content2, #content3, #content4, #content5, #content6 {
   display: none;
+  position: relative;
   padding: 12px 16px;
   background: linear-gradient(LightGrey, DarkGrey);
   min-width: 160px;
@@ -298,6 +299,7 @@ details {
   text-align: center;
   font-size: 20px;
 }
+
 #majorupdates {
   border-color: DarkBlue;
   border-style: solid;

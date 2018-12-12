@@ -1,4 +1,4 @@
-function togglecontent(id) {
+function togglecontent(id){
   if (id.style.display === "none") {
     id.style.display = "block";
   } else {
