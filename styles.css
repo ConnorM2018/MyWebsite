@@ -458,6 +458,21 @@ details {
   animation-fill-mode: forwards;
   animation-delay: 0.3s;
 }
+table, td {
+  border-style: solid;
+  border-collapse:collapse;
+  border-width: 2px;
+  border-color: DarkBlue;
+}
+td {
+  width: 50%;
+  padding: 8px;
+}
+#content6 table {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 @media screen and (max-width: 500px) {
   #navbar a {
     float: none;
